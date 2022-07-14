@@ -1,4 +1,4 @@
--- Lua Stable
+-- loader
 
 -- Instances:
 
@@ -410,7 +410,7 @@ UICorner_19.Parent = CMDX
 
 -- Scripts:
 
-local function GWAH_fake_script() -- skyromain.name and avatar finder 
+local function AMQP_fake_script() -- skyromain.name and avatar finder 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local skyromain = script.parent
@@ -425,8 +425,8 @@ local function GWAH_fake_script() -- skyromain.name and avatar finder
 	skyromain.PlayerImage.Image = content
 	skyromain.PlayerName.Text = player.Name
 end
-coroutine.wrap(GWAH_fake_script)()
-local function NQAE_fake_script() -- changekey.LocalScript 
+coroutine.wrap(AMQP_fake_script)()
+local function OARIR_fake_script() -- changekey.LocalScript 
 	local script = Instance.new('LocalScript', changekey)
 
 	local player = game.Players.LocalPlayer
@@ -436,8 +436,8 @@ local function NQAE_fake_script() -- changekey.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ShibaGT/MyRobloxScripts/main/skyro'))()
 	end)
 end
-coroutine.wrap(NQAE_fake_script)()
-local function GSHAFMP_fake_script() -- universal.changepage 
+coroutine.wrap(OARIR_fake_script)()
+local function NMFF_fake_script() -- universal.changepage 
 	local script = Instance.new('LocalScript', universal)
 
 	script.Parent.MouseButton1Click:Connect(function() --universal
@@ -460,8 +460,8 @@ local function GSHAFMP_fake_script() -- universal.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(GSHAFMP_fake_script)()
-local function CELI_fake_script() -- credits.changepage 
+coroutine.wrap(NMFF_fake_script)()
+local function COZW_fake_script() -- credits.changepage 
 	local script = Instance.new('LocalScript', credits)
 
 	script.Parent.MouseButton1Click:Connect(function() --credits
@@ -484,8 +484,8 @@ local function CELI_fake_script() -- credits.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(CELI_fake_script)()
-local function EXELO_fake_script() -- others.changepage 
+coroutine.wrap(COZW_fake_script)()
+local function NNXYEAX_fake_script() -- others.changepage 
 	local script = Instance.new('LocalScript', others)
 
 	script.Parent.MouseButton1Click:Connect(function() --others
@@ -508,8 +508,8 @@ local function EXELO_fake_script() -- others.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = true
 	end)
 end
-coroutine.wrap(EXELO_fake_script)()
-local function VFCYXRM_fake_script() -- skyromain.Drag 
+coroutine.wrap(NNXYEAX_fake_script)()
+local function FFMJFI_fake_script() -- skyromain.Drag 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local UIS = game:GetService('UserInputService')
@@ -547,8 +547,8 @@ local function VFCYXRM_fake_script() -- skyromain.Drag
 		end
 	end)
 end
-coroutine.wrap(VFCYXRM_fake_script)()
-local function PTYIDLE_fake_script() -- home.changepage 
+coroutine.wrap(FFMJFI_fake_script)()
+local function MWWXAG_fake_script() -- home.changepage 
 	local script = Instance.new('LocalScript', home)
 
 	script.Parent.MouseButton1Click:Connect(function() --home
@@ -571,8 +571,8 @@ local function PTYIDLE_fake_script() -- home.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(PTYIDLE_fake_script)()
-local function YUVK_fake_script() -- fly.fly 
+coroutine.wrap(MWWXAG_fake_script)()
+local function DYYJC_fake_script() -- fly.fly 
 	local script = Instance.new('LocalScript', fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -685,8 +685,8 @@ local function YUVK_fake_script() -- fly.fly
 		end)
 	end)
 end
-coroutine.wrap(YUVK_fake_script)()
-local function BOELUG_fake_script() -- InfJump.InfJump 
+coroutine.wrap(DYYJC_fake_script)()
+local function WFHX_fake_script() -- InfJump.InfJump 
 	local script = Instance.new('LocalScript', InfJump)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -703,8 +703,8 @@ local function BOELUG_fake_script() -- InfJump.InfJump
 		end
 	end)
 end
-coroutine.wrap(BOELUG_fake_script)()
-local function RCEN_fake_script() -- AntiFling.antifling 
+coroutine.wrap(WFHX_fake_script)()
+local function XFGQKOI_fake_script() -- AntiFling.antifling 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -793,8 +793,8 @@ local function RCEN_fake_script() -- AntiFling.antifling
 		end)
 	end)
 end
-coroutine.wrap(RCEN_fake_script)()
-local function OHHTB_fake_script() -- hamster.hamsterball 
+coroutine.wrap(XFGQKOI_fake_script)()
+local function UIUFGID_fake_script() -- hamster.hamsterball 
 	local script = Instance.new('LocalScript', hamster)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -860,16 +860,16 @@ local function OHHTB_fake_script() -- hamster.hamsterball
 		humanoid.Died:Connect(function() tc:Disconnect() end)
 	end)
 end
-coroutine.wrap(OHHTB_fake_script)()
-local function HJOILGF_fake_script() -- walkonwalls.walkonwalls 
+coroutine.wrap(UIUFGID_fake_script)()
+local function HKVBOC_fake_script() -- walkonwalls.walkonwalls 
 	local script = Instance.new('LocalScript', walkonwalls)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/walkonwalls.lua"))();
 	end)
 end
-coroutine.wrap(HJOILGF_fake_script)()
-local function EKFYI_fake_script() -- ctrlclicktp.antifling 
+coroutine.wrap(HKVBOC_fake_script)()
+local function NXQJRI_fake_script() -- ctrlclicktp.antifling 
 	local script = Instance.new('LocalScript', ctrlclicktp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -906,339 +906,336 @@ local function EKFYI_fake_script() -- ctrlclicktp.antifling
 		end)
 	end)
 end
-coroutine.wrap(EKFYI_fake_script)()
-local function AMRIH_fake_script() -- Telekinesis.Telekinesis 
+coroutine.wrap(NXQJRI_fake_script)()
+local function IKJK_fake_script() -- Telekinesis.Telekinesis 
 	local script = Instance.new('LocalScript', Telekinesis)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		-- Q & E - bring closer and further
-	-- R - Roates Block
-	-- T - Tilts Block
-	-- Y - Throws Block
-	local function a(b, c)
-		local d = getfenv(c)
-		local e =
-			setmetatable(
-				{},
-				{__index = function(self, f)
-					if f == "script" then
-					return b
-				else
-					return d[f]
-				end
-				end}
-			)
-		setfenv(c, e)
-		return c
-	end
-	local g = {}
-	local h = Instance.new("Model", game:GetService("Lighting"))
-	local i = Instance.new("Tool")
-	local j = Instance.new("Part")
-	local k = Instance.new("Script")
-	local l = Instance.new("LocalScript")
-	local m = sethiddenproperty or set_hidden_property
-	i.Name = "Telekinesis"
-	i.Parent = h
-	i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
-	i.GripForward = Vector3.new(-0, -1, -0)
-	i.GripRight = Vector3.new(0, 0, 1)
-	i.GripUp = Vector3.new(1, 0, 0)
-	j.Name = "Handle"
-	j.Parent = i
-	j.CFrame = CFrame.new(-17.2635937, 15.4915619, 46, 0, 1, 0, 1, 0, 0, 0, 0, -1)
-	j.Orientation = Vector3.new(0, 180, 90)
-	j.Position = Vector3.new(-17.2635937, 15.4915619, 46)
-	j.Rotation = Vector3.new(-180, 0, -90)
-	j.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
-	j.Transparency = 1
-	j.Size = Vector3.new(1, 1.20000005, 1)
-	j.BottomSurface = Enum.SurfaceType.Weld
-	j.BrickColor = BrickColor.new("Really black")
-	j.Material = Enum.Material.Metal
-	j.TopSurface = Enum.SurfaceType.Smooth
-	j.brickColor = BrickColor.new("Really black")
-	k.Name = "LineConnect"
-	k.Parent = i
-	table.insert(
-		g,
-		a(
-			k,
-			function()
-				wait()
-				local n = script.Part2
-				local o = script.Part1.Value
-				local p = script.Part2.Value
-				local q = script.Par.Value
-				local color = script.Color
-				local r = Instance.new("Part")
-				r.TopSurface = 0
-				r.BottomSurface = 0
-				r.Reflectance = .5
-				r.Name = "Laser"
-				r.Locked = true
-				r.CanCollide = false
-				r.Anchored = true
-				r.formFactor = 0
-				r.Size = Vector3.new(1, 1, 1)
-				local s = Instance.new("BlockMesh")
-				s.Parent = r
-				while true do
-					if n.Value == nil then
-						break
+		local function a(b, c)
+			local d = getfenv(c)
+			local e =
+				setmetatable(
+					{},
+					{__index = function(self, f)
+						if f == "script" then
+						return b
+					else
+						return d[f]
 					end
-					if o == nil or p == nil or q == nil then
-						break
-					end
-					if o.Parent == nil or p.Parent == nil then
-						break
-					end
-					if q.Parent == nil then
-						break
-					end
-					local t = CFrame.new(o.Position, p.Position)
-					local dist = (o.Position - p.Position).magnitude
-					r.Parent = q
-					r.BrickColor = color.Value.BrickColor
-					r.Reflectance = color.Value.Reflectance
-					r.Transparency = color.Value.Transparency
-					r.CFrame = CFrame.new(o.Position + t.lookVector * dist / 2)
-					r.CFrame = CFrame.new(r.Position, p.Position)
-					s.Scale = Vector3.new(.25, .25, dist)
+					end}
+				)
+			setfenv(c, e)
+			return c
+		end
+		local g = {}
+		local h = Instance.new("Model", game:GetService("Lighting"))
+		local i = Instance.new("Tool")
+		local j = Instance.new("Part")
+		local k = Instance.new("Script")
+		local l = Instance.new("LocalScript")
+		local m = sethiddenproperty or set_hidden_property
+		i.Name = "Telekinesis"
+		i.Parent = h
+		i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+		i.GripForward = Vector3.new(-0, -1, -0)
+		i.GripRight = Vector3.new(0, 0, 1)
+		i.GripUp = Vector3.new(1, 0, 0)
+		j.Name = "Handle"
+		j.Parent = i
+		j.CFrame = CFrame.new(-17.2635937, 15.4915619, 46, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+		j.Orientation = Vector3.new(0, 180, 90)
+		j.Position = Vector3.new(-17.2635937, 15.4915619, 46)
+		j.Rotation = Vector3.new(-180, 0, -90)
+		j.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+		j.Transparency = 1
+		j.Size = Vector3.new(1, 1.20000005, 1)
+		j.BottomSurface = Enum.SurfaceType.Weld
+		j.BrickColor = BrickColor.new("Really black")
+		j.Material = Enum.Material.Metal
+		j.TopSurface = Enum.SurfaceType.Smooth
+		j.brickColor = BrickColor.new("Really black")
+		k.Name = "LineConnect"
+		k.Parent = i
+		table.insert(
+			g,
+			a(
+				k,
+				function()
 					wait()
-				end
-				r:remove()
-				script:remove()
-			end
-		)
-	)
-	k.Disabled = true
-	l.Name = "MainScript"
-	l.Parent = i
-	table.insert(
-		g,
-		a(
-			l,
-			function()
-				wait()
-				tool = script.Parent
-				lineconnect = tool.LineConnect
-				object = nil
-				mousedown = false
-				found = false
-				BP = Instance.new("BodyPosition")
-				BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
-				BP.P = BP.P * 1.1
-				dist = nil
-				point = Instance.new("Part")
-				point.Locked = true
-				point.Anchored = true
-				point.formFactor = 0
-				point.Shape = 0
-				point.BrickColor = BrickColor.Black()
-				point.Size = Vector3.new(1, 1, 1)
-				point.CanCollide = false
-				local s = Instance.new("SpecialMesh")
-				s.MeshType = "Sphere"
-				s.Scale = Vector3.new(.7, .7, .7)
-				s.Parent = point
-				handle = tool.Handle
-				front = tool.Handle
-				color = tool.Handle
-				objval = nil
-				local u = false
-				local v = BP:clone()
-				v.maxForce = Vector3.new(30000, 30000, 30000)
-				function LineConnect(o, p, q)
-					local w = Instance.new("ObjectValue")
-					w.Value = o
-					w.Name = "Part1"
-					local x = Instance.new("ObjectValue")
-					x.Value = p
-					x.Name = "Part2"
-					local y = Instance.new("ObjectValue")
-					y.Value = q
-					y.Name = "Par"
-					local z = Instance.new("ObjectValue")
-					z.Value = color
-					z.Name = "Color"
-					local A = lineconnect:clone()
-					A.Disabled = false
-					w.Parent = A
-					x.Parent = A
-					y.Parent = A
-					z.Parent = A
-					A.Parent = workspace
-					if p == object then
-						objval = x
-					end
-				end
-				function onButton1Down(B)
-					if mousedown == true then
-						return
-					end
-					mousedown = true
-					coroutine.resume(
-						coroutine.create(
-							function()
-								local C = point:clone()
-								C.Parent = tool
-								LineConnect(front, C, workspace)
-								while mousedown == true do
-									C.Parent = tool
-									if object == nil then
-										if B.Target == nil then
-											local t = CFrame.new(front.Position, B.Hit.p)
-											C.CFrame = CFrame.new(front.Position + t.lookVector * 1000)
-										else
-											C.CFrame = CFrame.new(B.Hit.p)
-										end
-									else
-										LineConnect(front, object, workspace)
-										break
-									end
-									wait()
-								end
-								C:remove()
-							end
-						)
-					)
-					while mousedown == true do
-						if B.Target ~= nil then
-							local D = B.Target
-							if D.Anchored == false then
-								object = D
-								dist = (object.Position - front.Position).magnitude
-								break
-							end
-						end
-						wait()
-					end
-					while mousedown == true do
-						if object.Parent == nil then
+					local n = script.Part2
+					local o = script.Part1.Value
+					local p = script.Part2.Value
+					local q = script.Par.Value
+					local color = script.Color
+					local r = Instance.new("Part")
+					r.TopSurface = 0
+					r.BottomSurface = 0
+					r.Reflectance = .5
+					r.Name = "Laser"
+					r.Locked = true
+					r.CanCollide = false
+					r.Anchored = true
+					r.formFactor = 0
+					r.Size = Vector3.new(1, 1, 1)
+					local s = Instance.new("BlockMesh")
+					s.Parent = r
+					while true do
+						if n.Value == nil then
 							break
 						end
-						local t = CFrame.new(front.Position, B.Hit.p)
-						BP.Parent = object
-						BP.position = front.Position + t.lookVector * dist
+						if o == nil or p == nil or q == nil then
+							break
+						end
+						if o.Parent == nil or p.Parent == nil then
+							break
+						end
+						if q.Parent == nil then
+							break
+						end
+						local t = CFrame.new(o.Position, p.Position)
+						local dist = (o.Position - p.Position).magnitude
+						r.Parent = q
+						r.BrickColor = color.Value.BrickColor
+						r.Reflectance = color.Value.Reflectance
+						r.Transparency = color.Value.Transparency
+						r.CFrame = CFrame.new(o.Position + t.lookVector * dist / 2)
+						r.CFrame = CFrame.new(r.Position, p.Position)
+						s.Scale = Vector3.new(.25, .25, dist)
 						wait()
 					end
-					BP:remove()
+					r:remove()
+					script:remove()
+				end
+			)
+		)
+		k.Disabled = true
+		l.Name = "MainScript"
+		l.Parent = i
+		table.insert(
+			g,
+			a(
+				l,
+				function()
+					wait()
+					tool = script.Parent
+					lineconnect = tool.LineConnect
 					object = nil
-					objval.Value = nil
-				end
-				function onKeyDown(E, B)
-					local E = E:lower()
-					local F = false
-					if E == "q" then
-						if dist >= 5 then
-							dist = dist - 10
+					mousedown = false
+					found = false
+					BP = Instance.new("BodyPosition")
+					BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
+					BP.P = BP.P * 1.1
+					dist = nil
+					point = Instance.new("Part")
+					point.Locked = true
+					point.Anchored = true
+					point.formFactor = 0
+					point.Shape = 0
+					point.BrickColor = BrickColor.Black()
+					point.Size = Vector3.new(1, 1, 1)
+					point.CanCollide = false
+					local s = Instance.new("SpecialMesh")
+					s.MeshType = "Sphere"
+					s.Scale = Vector3.new(.7, .7, .7)
+					s.Parent = point
+					handle = tool.Handle
+					front = tool.Handle
+					color = tool.Handle
+					objval = nil
+					local u = false
+					local v = BP:clone()
+					v.maxForce = Vector3.new(30000, 30000, 30000)
+					function LineConnect(o, p, q)
+						local w = Instance.new("ObjectValue")
+						w.Value = o
+						w.Name = "Part1"
+						local x = Instance.new("ObjectValue")
+						x.Value = p
+						x.Name = "Part2"
+						local y = Instance.new("ObjectValue")
+						y.Value = q
+						y.Name = "Par"
+						local z = Instance.new("ObjectValue")
+						z.Value = color
+						z.Name = "Color"
+						local A = lineconnect:clone()
+						A.Disabled = false
+						w.Parent = A
+						x.Parent = A
+						y.Parent = A
+						z.Parent = A
+						A.Parent = workspace
+						if p == object then
+							objval = x
 						end
 					end
-					if E == "r" then
-						if object == nil then
+					function onButton1Down(B)
+						if mousedown == true then
 							return
 						end
-						for G, H in pairs(object:children()) do
-							if H.className == "BodyGyro" then
-								return nil
+						mousedown = true
+						coroutine.resume(
+							coroutine.create(
+								function()
+									local C = point:clone()
+									C.Parent = tool
+									LineConnect(front, C, workspace)
+									while mousedown == true do
+										C.Parent = tool
+										if object == nil then
+											if B.Target == nil then
+												local t = CFrame.new(front.Position, B.Hit.p)
+												C.CFrame = CFrame.new(front.Position + t.lookVector * 1000)
+											else
+												C.CFrame = CFrame.new(B.Hit.p)
+											end
+										else
+											LineConnect(front, object, workspace)
+											break
+										end
+										wait()
+									end
+									C:remove()
+								end
+							)
+						)
+						while mousedown == true do
+							if B.Target ~= nil then
+								local D = B.Target
+								if D.Anchored == false then
+									object = D
+									dist = (object.Position - front.Position).magnitude
+									break
+								end
 							end
-						end
-						BG = Instance.new("BodyGyro")
-						BG.maxTorque = Vector3.new(math.huge, math.huge, math.huge)
-						BG.cframe = CFrame.new(object.CFrame.p)
-						BG.Parent = object
-						repeat
 							wait()
-						until object.CFrame == CFrame.new(object.CFrame.p)
-						BG.Parent = nil
-						if object == nil then
-							return
 						end
-						for G, H in pairs(object:children()) do
-							if H.className == "BodyGyro" then
-								H.Parent = nil
+						while mousedown == true do
+							if object.Parent == nil then
+								break
+							end
+							local t = CFrame.new(front.Position, B.Hit.p)
+							BP.Parent = object
+							BP.position = front.Position + t.lookVector * dist
+							wait()
+						end
+						BP:remove()
+						object = nil
+						objval.Value = nil
+					end
+					function onKeyDown(E, B)
+						local E = E:lower()
+						local F = false
+						if E == "q" then
+							if dist >= 5 then
+								dist = dist - 10
 							end
 						end
-						object.Velocity = Vector3.new(0, 0, 0)
-						object.RotVelocity = Vector3.new(0, 0, 0)
-						object.Orientation = Vector3.new(0, 0, 0)
-					end
-					if E == "e" then
-						dist = dist + 10
-					end
-					if E == "t" then
-						if dist ~= 10 then
-							dist = 10
+						if E == "r" then
+							if object == nil then
+								return
+							end
+							for G, H in pairs(object:children()) do
+								if H.className == "BodyGyro" then
+									return nil
+								end
+							end
+							BG = Instance.new("BodyGyro")
+							BG.maxTorque = Vector3.new(math.huge, math.huge, math.huge)
+							BG.cframe = CFrame.new(object.CFrame.p)
+							BG.Parent = object
+							repeat
+								wait()
+							until object.CFrame == CFrame.new(object.CFrame.p)
+							BG.Parent = nil
+							if object == nil then
+								return
+							end
+							for G, H in pairs(object:children()) do
+								if H.className == "BodyGyro" then
+									H.Parent = nil
+								end
+							end
+							object.Velocity = Vector3.new(0, 0, 0)
+							object.RotVelocity = Vector3.new(0, 0, 0)
+							object.Orientation = Vector3.new(0, 0, 0)
+						end
+						if E == "e" then
+							dist = dist + 10
+						end
+						if E == "t" then
+							if dist ~= 10 then
+								dist = 10
+							end
+						end
+						if E == "y" then
+							if dist ~= 200 then
+								dist = 200
+							end
+						end
+						if E == "=" then
+							BP.P = BP.P * 1.5
+						end
+						if E == "-" then
+							BP.P = BP.P * 0.5
 						end
 					end
-					if E == "y" then
-						if dist ~= 200 then
-							dist = 200
-						end
-					end
-					if E == "=" then
-						BP.P = BP.P * 1.5
-					end
-					if E == "-" then
-						BP.P = BP.P * 0.5
-					end
-				end
-				function onEquipped(B)
-					keymouse = B
-					local I = tool.Parent
-					human = I.Humanoid
-					human.Changed:connect(
-						function()
-							if human.Health == 0 then
+					function onEquipped(B)
+						keymouse = B
+						local I = tool.Parent
+						human = I.Humanoid
+						human.Changed:connect(
+							function()
+								if human.Health == 0 then
+									mousedown = false
+									BP:remove()
+									point:remove()
+									tool:remove()
+								end
+							end
+						)
+						B.Button1Down:connect(
+							function()
+								onButton1Down(B)
+							end
+						)
+						B.Button1Up:connect(
+							function()
 								mousedown = false
-								BP:remove()
-								point:remove()
-								tool:remove()
 							end
-						end
-					)
-					B.Button1Down:connect(
-						function()
-							onButton1Down(B)
-						end
-					)
-					B.Button1Up:connect(
-						function()
-							mousedown = false
-						end
-					)
-					B.KeyDown:connect(
-						function(E)
-							onKeyDown(E, B)
-						end
-					)
-					B.Icon = "rbxasset://textures\\GunCursor.png"
+						)
+						B.KeyDown:connect(
+							function(E)
+								onKeyDown(E, B)
+							end
+						)
+						B.Icon = "rbxasset://textures\\GunCursor.png"
+					end
+					tool.Equipped:connect(onEquipped)
 				end
-				tool.Equipped:connect(onEquipped)
-			end
+			)
 		)
-	)
-	for J, H in pairs(h:GetChildren()) do
-		H.Parent = game:GetService("Players").LocalPlayer.Backpack
-		pcall(
-			function()
-				H:MakeJoints()
-			end
-		)
-	end
-	h:Destroy()
-	for J, H in pairs(g) do
-		spawn(
-			function()
-				pcall(H)
-			end
-		)
+		for J, H in pairs(h:GetChildren()) do
+			H.Parent = game:GetService("Players").LocalPlayer.Backpack
+			pcall(
+				function()
+					H:MakeJoints()
+				end
+			)
 		end
+		h:Destroy()
+		for J, H in pairs(g) do
+			spawn(
+				function()
+					pcall(H)
+				end
+			)
+		end
+	
 		end)
 end
-coroutine.wrap(AMRIH_fake_script)()
-local function XWUJS_fake_script() -- btools.btools 
+coroutine.wrap(IKJK_fake_script)()
+local function AEKVCCB_fake_script() -- btools.btools 
 	local script = Instance.new('LocalScript', btools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1259,8 +1256,8 @@ local function XWUJS_fake_script() -- btools.btools
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Unlock Workspace Baseparts.txt"))()
 		end)
 end
-coroutine.wrap(XWUJS_fake_script)()
-local function DPDUE_fake_script() -- noclip.noclip 
+coroutine.wrap(AEKVCCB_fake_script)()
+local function DFVM_fake_script() -- noclip.noclip 
 	local script = Instance.new('LocalScript', noclip)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1313,36 +1310,36 @@ local function DPDUE_fake_script() -- noclip.noclip
 		end
 	end)
 end
-coroutine.wrap(DPDUE_fake_script)()
-local function XEZAIVP_fake_script() -- respawn.respawn 
+coroutine.wrap(DFVM_fake_script)()
+local function EJSLPW_fake_script() -- respawn.respawn 
 	local script = Instance.new('LocalScript', respawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Name = 1 local l = game.Players.LocalPlayer.Character["1"]:Clone() l.Parent = game.Players.LocalPlayer.Character l.Name = "Humanoid" wait() game.Players.LocalPlayer.Character["1"]:Destroy() game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character game.Players.LocalPlayer.Character.Animate.Disabled = true wait() game.Players.LocalPlayer.Character.Animate.Disabled = false game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None" wait() local prt = Instance.new("Model", workspace); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; game.Players.LocalPlayer.Character=prt
 	end)
 end
-coroutine.wrap(XEZAIVP_fake_script)()
-local function ZQFG_fake_script() -- Rejoin.rejoin 
+coroutine.wrap(EJSLPW_fake_script)()
+local function ABNRY_fake_script() -- Rejoin.rejoin 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(ZQFG_fake_script)()
-local function OGQW_fake_script() -- InfYield.ifn yeidl 
+coroutine.wrap(ABNRY_fake_script)()
+local function ACFT_fake_script() -- InfYield.ifn yeidl 
 	local script = Instance.new('LocalScript', InfYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(OGQW_fake_script)()
-local function URQHZIB_fake_script() -- CMDX.cmd-x 
+coroutine.wrap(ACFT_fake_script)()
+local function BBVSPW_fake_script() -- CMDX.cmd-x 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(URQHZIB_fake_script)()
+coroutine.wrap(BBVSPW_fake_script)()
