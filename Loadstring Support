@@ -1,4 +1,4 @@
--- skyro
+-- Lua Stable
 
 -- Instances:
 
@@ -410,7 +410,7 @@ UICorner_19.Parent = CMDX
 
 -- Scripts:
 
-local function QAFAC_fake_script() -- skyromain.name and avatar finder 
+local function GWAH_fake_script() -- skyromain.name and avatar finder 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local skyromain = script.parent
@@ -425,18 +425,19 @@ local function QAFAC_fake_script() -- skyromain.name and avatar finder
 	skyromain.PlayerImage.Image = content
 	skyromain.PlayerName.Text = player.Name
 end
-coroutine.wrap(QAFAC_fake_script)()
-local function HDNGVZ_fake_script() -- changekey.LocalScript 
+coroutine.wrap(GWAH_fake_script)()
+local function NQAE_fake_script() -- changekey.LocalScript 
 	local script = Instance.new('LocalScript', changekey)
 
 	local player = game.Players.LocalPlayer
 	script.Parent.MouseButton1Click:Connect(function()
 		wait(0.5)
 		player.PlayerGui.skryo:Destroy()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ShibaGT/MyRobloxScripts/main/skyro'))()
 	end)
 end
-coroutine.wrap(HDNGVZ_fake_script)()
-local function DLSPCF_fake_script() -- universal.changepage 
+coroutine.wrap(NQAE_fake_script)()
+local function GSHAFMP_fake_script() -- universal.changepage 
 	local script = Instance.new('LocalScript', universal)
 
 	script.Parent.MouseButton1Click:Connect(function() --universal
@@ -459,8 +460,8 @@ local function DLSPCF_fake_script() -- universal.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(DLSPCF_fake_script)()
-local function DHPOH_fake_script() -- credits.changepage 
+coroutine.wrap(GSHAFMP_fake_script)()
+local function CELI_fake_script() -- credits.changepage 
 	local script = Instance.new('LocalScript', credits)
 
 	script.Parent.MouseButton1Click:Connect(function() --credits
@@ -483,8 +484,8 @@ local function DHPOH_fake_script() -- credits.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(DHPOH_fake_script)()
-local function LVKFKTR_fake_script() -- others.changepage 
+coroutine.wrap(CELI_fake_script)()
+local function EXELO_fake_script() -- others.changepage 
 	local script = Instance.new('LocalScript', others)
 
 	script.Parent.MouseButton1Click:Connect(function() --others
@@ -507,8 +508,8 @@ local function LVKFKTR_fake_script() -- others.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = true
 	end)
 end
-coroutine.wrap(LVKFKTR_fake_script)()
-local function ZCUPI_fake_script() -- skyromain.Drag 
+coroutine.wrap(EXELO_fake_script)()
+local function VFCYXRM_fake_script() -- skyromain.Drag 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local UIS = game:GetService('UserInputService')
@@ -546,8 +547,8 @@ local function ZCUPI_fake_script() -- skyromain.Drag
 		end
 	end)
 end
-coroutine.wrap(ZCUPI_fake_script)()
-local function QIODAHA_fake_script() -- home.changepage 
+coroutine.wrap(VFCYXRM_fake_script)()
+local function PTYIDLE_fake_script() -- home.changepage 
 	local script = Instance.new('LocalScript', home)
 
 	script.Parent.MouseButton1Click:Connect(function() --home
@@ -570,8 +571,8 @@ local function QIODAHA_fake_script() -- home.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
 	end)
 end
-coroutine.wrap(QIODAHA_fake_script)()
-local function QNTNEQ_fake_script() -- fly.fly 
+coroutine.wrap(PTYIDLE_fake_script)()
+local function YUVK_fake_script() -- fly.fly 
 	local script = Instance.new('LocalScript', fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -684,8 +685,8 @@ local function QNTNEQ_fake_script() -- fly.fly
 		end)
 	end)
 end
-coroutine.wrap(QNTNEQ_fake_script)()
-local function THTUEH_fake_script() -- InfJump.InfJump 
+coroutine.wrap(YUVK_fake_script)()
+local function BOELUG_fake_script() -- InfJump.InfJump 
 	local script = Instance.new('LocalScript', InfJump)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -702,8 +703,8 @@ local function THTUEH_fake_script() -- InfJump.InfJump
 		end
 	end)
 end
-coroutine.wrap(THTUEH_fake_script)()
-local function UEQU_fake_script() -- AntiFling.antifling 
+coroutine.wrap(BOELUG_fake_script)()
+local function RCEN_fake_script() -- AntiFling.antifling 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -792,8 +793,8 @@ local function UEQU_fake_script() -- AntiFling.antifling
 		end)
 	end)
 end
-coroutine.wrap(UEQU_fake_script)()
-local function IKCVYYH_fake_script() -- hamster.hamsterball 
+coroutine.wrap(RCEN_fake_script)()
+local function OHHTB_fake_script() -- hamster.hamsterball 
 	local script = Instance.new('LocalScript', hamster)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -859,16 +860,16 @@ local function IKCVYYH_fake_script() -- hamster.hamsterball
 		humanoid.Died:Connect(function() tc:Disconnect() end)
 	end)
 end
-coroutine.wrap(IKCVYYH_fake_script)()
-local function HCIAJX_fake_script() -- walkonwalls.walkonwalls 
+coroutine.wrap(OHHTB_fake_script)()
+local function HJOILGF_fake_script() -- walkonwalls.walkonwalls 
 	local script = Instance.new('LocalScript', walkonwalls)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/walkonwalls.lua"))();
 	end)
 end
-coroutine.wrap(HCIAJX_fake_script)()
-local function SUUGWL_fake_script() -- ctrlclicktp.antifling 
+coroutine.wrap(HJOILGF_fake_script)()
+local function EKFYI_fake_script() -- ctrlclicktp.antifling 
 	local script = Instance.new('LocalScript', ctrlclicktp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -905,8 +906,8 @@ local function SUUGWL_fake_script() -- ctrlclicktp.antifling
 		end)
 	end)
 end
-coroutine.wrap(SUUGWL_fake_script)()
-local function ZOYZKL_fake_script() -- Telekinesis.Telekinesis 
+coroutine.wrap(EKFYI_fake_script)()
+local function AMRIH_fake_script() -- Telekinesis.Telekinesis 
 	local script = Instance.new('LocalScript', Telekinesis)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1236,8 +1237,8 @@ local function ZOYZKL_fake_script() -- Telekinesis.Telekinesis
 		end
 		end)
 end
-coroutine.wrap(ZOYZKL_fake_script)()
-local function VDTXNER_fake_script() -- btools.btools 
+coroutine.wrap(AMRIH_fake_script)()
+local function XWUJS_fake_script() -- btools.btools 
 	local script = Instance.new('LocalScript', btools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1258,8 +1259,8 @@ local function VDTXNER_fake_script() -- btools.btools
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Unlock Workspace Baseparts.txt"))()
 		end)
 end
-coroutine.wrap(VDTXNER_fake_script)()
-local function DDYYD_fake_script() -- noclip.noclip 
+coroutine.wrap(XWUJS_fake_script)()
+local function DPDUE_fake_script() -- noclip.noclip 
 	local script = Instance.new('LocalScript', noclip)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1312,36 +1313,36 @@ local function DDYYD_fake_script() -- noclip.noclip
 		end
 	end)
 end
-coroutine.wrap(DDYYD_fake_script)()
-local function RMYYEG_fake_script() -- respawn.respawn 
+coroutine.wrap(DPDUE_fake_script)()
+local function XEZAIVP_fake_script() -- respawn.respawn 
 	local script = Instance.new('LocalScript', respawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Name = 1 local l = game.Players.LocalPlayer.Character["1"]:Clone() l.Parent = game.Players.LocalPlayer.Character l.Name = "Humanoid" wait() game.Players.LocalPlayer.Character["1"]:Destroy() game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character game.Players.LocalPlayer.Character.Animate.Disabled = true wait() game.Players.LocalPlayer.Character.Animate.Disabled = false game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None" wait() local prt = Instance.new("Model", workspace); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; game.Players.LocalPlayer.Character=prt
 	end)
 end
-coroutine.wrap(RMYYEG_fake_script)()
-local function PMEEE_fake_script() -- Rejoin.rejoin 
+coroutine.wrap(XEZAIVP_fake_script)()
+local function ZQFG_fake_script() -- Rejoin.rejoin 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(PMEEE_fake_script)()
-local function BPEZFI_fake_script() -- InfYield.ifn yeidl 
+coroutine.wrap(ZQFG_fake_script)()
+local function OGQW_fake_script() -- InfYield.ifn yeidl 
 	local script = Instance.new('LocalScript', InfYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(BPEZFI_fake_script)()
-local function JKHRUAV_fake_script() -- CMDX.cmd-x 
+coroutine.wrap(OGQW_fake_script)()
+local function URQHZIB_fake_script() -- CMDX.cmd-x 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(JKHRUAV_fake_script)()
+coroutine.wrap(URQHZIB_fake_script)()
