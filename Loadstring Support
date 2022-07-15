@@ -1,3 +1,4 @@
+-- work in progress
 -- loader
 
 -- Instances:
@@ -46,6 +47,10 @@ local InfYield = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
 local CMDX = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
+local R15Invisiblity = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Spiderman = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 
 --Properties:
 
@@ -56,12 +61,12 @@ skryo.ResetOnSpawn = false
 
 skyromain.Name = "skyromain"
 skyromain.Parent = skryo
-skyromain.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+skyromain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 skyromain.BorderColor3 = Color3.fromRGB(255, 255, 255)
 skyromain.Position = UDim2.new(0.281912386, 0, 0.250988156, 0)
 skyromain.Size = UDim2.new(0, 476, 0, 268)
 
-UICorner.CornerRadius = UDim.new(0.200000003, 0)
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
 UICorner.Parent = skyromain
 
 PlayerImage.Name = "PlayerImage"
@@ -100,12 +105,12 @@ PlayerName.TextWrapped = true
 
 changekey.Name = "changekey"
 changekey.Parent = skyromain
-changekey.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+changekey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 changekey.Position = UDim2.new(0.366863906, 0, 0.164912283, 0)
 changekey.Size = UDim2.new(0, 135, 0, 40)
 changekey.Font = Enum.Font.PatrickHand
 changekey.Text = "change key"
-changekey.TextColor3 = Color3.fromRGB(0, 0, 0)
+changekey.TextColor3 = Color3.fromRGB(255, 255, 255)
 changekey.TextScaled = true
 changekey.TextSize = 14.000
 changekey.TextWrapped = true
@@ -115,12 +120,12 @@ UICorner_2.Parent = changekey
 
 universal.Name = "universal"
 universal.Parent = skyromain
-universal.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+universal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 universal.Position = UDim2.new(0.0177514795, 0, 0.305263132, 0)
 universal.Size = UDim2.new(0, 110, 0, 50)
 universal.Font = Enum.Font.PatrickHand
 universal.Text = "universal"
-universal.TextColor3 = Color3.fromRGB(0, 0, 0)
+universal.TextColor3 = Color3.fromRGB(255, 255, 255)
 universal.TextScaled = true
 universal.TextSize = 14.000
 universal.TextWrapped = true
@@ -130,12 +135,12 @@ UICorner_3.Parent = universal
 
 credits.Name = "credits"
 credits.Parent = skyromain
-credits.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 credits.Position = UDim2.new(0.0177514795, 0, 0.705263197, 0)
 credits.Size = UDim2.new(0, 110, 0, 50)
 credits.Font = Enum.Font.PatrickHand
 credits.Text = "credits"
-credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 credits.TextScaled = true
 credits.TextSize = 14.000
 credits.TextWrapped = true
@@ -145,12 +150,12 @@ UICorner_4.Parent = credits
 
 others.Name = "others"
 others.Parent = skyromain
-others.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+others.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 others.Position = UDim2.new(0.0177514795, 0, 0.501754403, 0)
 others.Size = UDim2.new(0, 110, 0, 50)
 others.Font = Enum.Font.PatrickHand
 others.Text = "other universal scripts"
-others.TextColor3 = Color3.fromRGB(0, 0, 0)
+others.TextColor3 = Color3.fromRGB(255, 255, 255)
 others.TextScaled = true
 others.TextSize = 14.000
 others.TextWrapped = true
@@ -165,7 +170,7 @@ version.BackgroundTransparency = 1.000
 version.Position = UDim2.new(0.804393589, 0, 0.0161846876, 0)
 version.Size = UDim2.new(0, 124, 0, 40)
 version.Font = Enum.Font.PermanentMarker
-version.Text = "v1"
+version.Text = "v2"
 version.TextColor3 = Color3.fromRGB(255, 0, 0)
 version.TextScaled = true
 version.TextSize = 14.000
@@ -173,12 +178,12 @@ version.TextWrapped = true
 
 home.Name = "home"
 home.Parent = skyromain
-home.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 home.Position = UDim2.new(0.0177514795, 0, 0.101754367, 0)
 home.Size = UDim2.new(0, 110, 0, 50)
 home.Font = Enum.Font.PatrickHand
 home.Text = "skyro"
-home.TextColor3 = Color3.fromRGB(0, 0, 0)
+home.TextColor3 = Color3.fromRGB(255, 255, 255)
 home.TextScaled = true
 home.TextSize = 14.000
 home.TextWrapped = true
@@ -190,8 +195,8 @@ creditstext.Name = "creditstext"
 creditstext.Parent = skyromain
 creditstext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 creditstext.BackgroundTransparency = 1.000
-creditstext.Position = UDim2.new(0.232401416, 0, 0.129824564, 0)
-creditstext.Size = UDim2.new(0, 272, 0, 50)
+creditstext.Position = UDim2.new(0.248843923, 0, 0.129824564, 0)
+creditstext.Size = UDim2.new(0, 274, 0, 50)
 creditstext.Visible = false
 creditstext.Font = Enum.Font.PermanentMarker
 creditstext.Text = "sh1bagt - making the thing"
@@ -202,13 +207,13 @@ creditstext.TextWrapped = true
 
 fly.Name = "fly"
 fly.Parent = skyromain
-fly.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 fly.Position = UDim2.new(0.258382618, 0, 0.18245618, 0)
 fly.Size = UDim2.new(0, 99, 0, 34)
 fly.Visible = false
 fly.Font = Enum.Font.PatrickHand
 fly.Text = "Double Jump to Fly"
-fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
 fly.TextScaled = true
 fly.TextSize = 14.000
 fly.TextWrapped = true
@@ -218,13 +223,13 @@ UICorner_7.Parent = fly
 
 InfJump.Name = "Inf Jump"
 InfJump.Parent = skyromain
-InfJump.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+InfJump.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 InfJump.Position = UDim2.new(0.496482044, 0, 0.18245618, 0)
 InfJump.Size = UDim2.new(0, 99, 0, 34)
 InfJump.Visible = false
 InfJump.Font = Enum.Font.PatrickHand
 InfJump.Text = "Inf Jump"
-InfJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfJump.TextScaled = true
 InfJump.TextSize = 14.000
 InfJump.TextWrapped = true
@@ -234,13 +239,13 @@ UICorner_8.Parent = InfJump
 
 AntiFling.Name = "AntiFling"
 AntiFling.Parent = skyromain
-AntiFling.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+AntiFling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 AntiFling.Position = UDim2.new(0.73706764, 0, 0.182456166, 0)
 AntiFling.Size = UDim2.new(0, 99, 0, 34)
 AntiFling.Visible = false
 AntiFling.Font = Enum.Font.PatrickHand
 AntiFling.Text = "AntiFling"
-AntiFling.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiFling.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiFling.TextScaled = true
 AntiFling.TextSize = 14.000
 AntiFling.TextWrapped = true
@@ -250,13 +255,13 @@ UICorner_9.Parent = AntiFling
 
 hamster.Name = "hamster"
 hamster.Parent = skyromain
-hamster.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+hamster.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 hamster.Position = UDim2.new(0.260354996, 0, 0.329824597, 0)
 hamster.Size = UDim2.new(0, 99, 0, 34)
 hamster.Visible = false
 hamster.Font = Enum.Font.PatrickHand
 hamster.Text = "Hampster Ball"
-hamster.TextColor3 = Color3.fromRGB(0, 0, 0)
+hamster.TextColor3 = Color3.fromRGB(255, 255, 255)
 hamster.TextScaled = true
 hamster.TextSize = 14.000
 hamster.TextWrapped = true
@@ -266,13 +271,13 @@ UICorner_10.Parent = hamster
 
 walkonwalls.Name = "walk on walls"
 walkonwalls.Parent = skyromain
-walkonwalls.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+walkonwalls.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 walkonwalls.Position = UDim2.new(0.498454422, 0, 0.329824597, 0)
 walkonwalls.Size = UDim2.new(0, 99, 0, 34)
 walkonwalls.Visible = false
 walkonwalls.Font = Enum.Font.PatrickHand
 walkonwalls.Text = "Walk on Walls"
-walkonwalls.TextColor3 = Color3.fromRGB(0, 0, 0)
+walkonwalls.TextColor3 = Color3.fromRGB(255, 255, 255)
 walkonwalls.TextScaled = true
 walkonwalls.TextSize = 14.000
 walkonwalls.TextWrapped = true
@@ -282,13 +287,13 @@ UICorner_11.Parent = walkonwalls
 
 ctrlclicktp.Name = "ctrl click tp"
 ctrlclicktp.Parent = skyromain
-ctrlclicktp.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+ctrlclicktp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ctrlclicktp.Position = UDim2.new(0.736939132, 0, 0.326093256, 0)
 ctrlclicktp.Size = UDim2.new(0, 99, 0, 34)
 ctrlclicktp.Visible = false
 ctrlclicktp.Font = Enum.Font.PatrickHand
 ctrlclicktp.Text = "Ctrl+Click tp"
-ctrlclicktp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ctrlclicktp.TextColor3 = Color3.fromRGB(255, 255, 255)
 ctrlclicktp.TextScaled = true
 ctrlclicktp.TextSize = 14.000
 ctrlclicktp.TextWrapped = true
@@ -298,13 +303,13 @@ UICorner_12.Parent = ctrlclicktp
 
 Telekinesis.Name = "Telekinesis"
 Telekinesis.Parent = skyromain
-Telekinesis.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Telekinesis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Telekinesis.Position = UDim2.new(0.258382618, 0, 0.488387048, 0)
 Telekinesis.Size = UDim2.new(0, 99, 0, 34)
 Telekinesis.Visible = false
 Telekinesis.Font = Enum.Font.PatrickHand
 Telekinesis.Text = "Telekinesis"
-Telekinesis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Telekinesis.TextColor3 = Color3.fromRGB(255, 255, 255)
 Telekinesis.TextScaled = true
 Telekinesis.TextSize = 14.000
 Telekinesis.TextWrapped = true
@@ -314,13 +319,13 @@ UICorner_13.Parent = Telekinesis
 
 btools.Name = "btools"
 btools.Parent = skyromain
-btools.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+btools.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 btools.Position = UDim2.new(0.495777577, 0, 0.488387048, 0)
 btools.Size = UDim2.new(0, 99, 0, 34)
 btools.Visible = false
 btools.Font = Enum.Font.PatrickHand
 btools.Text = "Local Btools"
-btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+btools.TextColor3 = Color3.fromRGB(255, 255, 255)
 btools.TextScaled = true
 btools.TextSize = 14.000
 btools.TextWrapped = true
@@ -330,13 +335,13 @@ UICorner_14.Parent = btools
 
 noclip.Name = "noclip"
 noclip.Parent = skyromain
-noclip.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+noclip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 noclip.Position = UDim2.new(0.735273361, 0, 0.488387048, 0)
 noclip.Size = UDim2.new(0, 99, 0, 34)
 noclip.Visible = false
 noclip.Font = Enum.Font.PatrickHand
 noclip.Text = "Toggle Noclip"
-noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
 noclip.TextScaled = true
 noclip.TextSize = 14.000
 noclip.TextWrapped = true
@@ -346,13 +351,13 @@ UICorner_15.Parent = noclip
 
 respawn.Name = "respawn"
 respawn.Parent = skyromain
-respawn.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+respawn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 respawn.Position = UDim2.new(0.258382618, 0, 0.656297505, 0)
 respawn.Size = UDim2.new(0, 99, 0, 34)
 respawn.Visible = false
 respawn.Font = Enum.Font.PatrickHand
 respawn.Text = "Respawn"
-respawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
 respawn.TextScaled = true
 respawn.TextSize = 14.000
 respawn.TextWrapped = true
@@ -362,13 +367,13 @@ UICorner_16.Parent = respawn
 
 Rejoin.Name = "Rejoin"
 Rejoin.Parent = skyromain
-Rejoin.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Rejoin.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Rejoin.Position = UDim2.new(0.495777577, 0, 0.656297505, 0)
 Rejoin.Size = UDim2.new(0, 99, 0, 34)
 Rejoin.Visible = false
 Rejoin.Font = Enum.Font.PatrickHand
 Rejoin.Text = "Rejoin"
-Rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
 Rejoin.TextScaled = true
 Rejoin.TextSize = 14.000
 Rejoin.TextWrapped = true
@@ -408,9 +413,41 @@ CMDX.TextWrapped = true
 UICorner_19.CornerRadius = UDim.new(0.300000012, 0)
 UICorner_19.Parent = CMDX
 
+R15Invisiblity.Name = "R15 Invisiblity"
+R15Invisiblity.Parent = skyromain
+R15Invisiblity.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+R15Invisiblity.Position = UDim2.new(0.728970885, 0, 0.660028875, 0)
+R15Invisiblity.Size = UDim2.new(0, 99, 0, 34)
+R15Invisiblity.Visible = false
+R15Invisiblity.Font = Enum.Font.PatrickHand
+R15Invisiblity.Text = "R15 Invisiblity"
+R15Invisiblity.TextColor3 = Color3.fromRGB(255, 255, 255)
+R15Invisiblity.TextScaled = true
+R15Invisiblity.TextSize = 14.000
+R15Invisiblity.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_20.Parent = R15Invisiblity
+
+Spiderman.Name = "Spiderman"
+Spiderman.Parent = skyromain
+Spiderman.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Spiderman.Position = UDim2.new(0.256281793, 0, 0.813013971, 0)
+Spiderman.Size = UDim2.new(0, 99, 0, 34)
+Spiderman.Visible = false
+Spiderman.Font = Enum.Font.PatrickHand
+Spiderman.Text = "R6 Spiderman"
+Spiderman.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spiderman.TextScaled = true
+Spiderman.TextSize = 14.000
+Spiderman.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0.300000012, 0)
+UICorner_21.Parent = Spiderman
+
 -- Scripts:
 
-local function AMQP_fake_script() -- skyromain.name and avatar finder 
+local function FJJBYOW_fake_script() -- skyromain.name and avatar finder 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local skyromain = script.parent
@@ -425,8 +462,8 @@ local function AMQP_fake_script() -- skyromain.name and avatar finder
 	skyromain.PlayerImage.Image = content
 	skyromain.PlayerName.Text = player.Name
 end
-coroutine.wrap(AMQP_fake_script)()
-local function OARIR_fake_script() -- changekey.LocalScript 
+coroutine.wrap(FJJBYOW_fake_script)()
+local function YYIOYO_fake_script() -- changekey.LocalScript 
 	local script = Instance.new('LocalScript', changekey)
 
 	local player = game.Players.LocalPlayer
@@ -436,8 +473,8 @@ local function OARIR_fake_script() -- changekey.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ShibaGT/MyRobloxScripts/main/skyro'))()
 	end)
 end
-coroutine.wrap(OARIR_fake_script)()
-local function NMFF_fake_script() -- universal.changepage 
+coroutine.wrap(YYIOYO_fake_script)()
+local function CBJA_fake_script() -- universal.changepage 
 	local script = Instance.new('LocalScript', universal)
 
 	script.Parent.MouseButton1Click:Connect(function() --universal
@@ -458,10 +495,12 @@ local function NMFF_fake_script() -- universal.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.AntiFling.Visible = true
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["CMD-X"].Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["R15 Invisiblity"].Visible = true
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.Spiderman.Visible = true
 	end)
 end
-coroutine.wrap(NMFF_fake_script)()
-local function COZW_fake_script() -- credits.changepage 
+coroutine.wrap(CBJA_fake_script)()
+local function DIBVCYL_fake_script() -- credits.changepage 
 	local script = Instance.new('LocalScript', credits)
 
 	script.Parent.MouseButton1Click:Connect(function() --credits
@@ -482,10 +521,12 @@ local function COZW_fake_script() -- credits.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.AntiFling.Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["CMD-X"].Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["R15 Invisiblity"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.Spiderman.Visible = false
 	end)
 end
-coroutine.wrap(COZW_fake_script)()
-local function NNXYEAX_fake_script() -- others.changepage 
+coroutine.wrap(DIBVCYL_fake_script)()
+local function BUXX_fake_script() -- others.changepage 
 	local script = Instance.new('LocalScript', others)
 
 	script.Parent.MouseButton1Click:Connect(function() --others
@@ -506,10 +547,12 @@ local function NNXYEAX_fake_script() -- others.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.AntiFling.Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["CMD-X"].Visible = true
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = true
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["R15 Invisiblity"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.Spiderman.Visible = false
 	end)
 end
-coroutine.wrap(NNXYEAX_fake_script)()
-local function FFMJFI_fake_script() -- skyromain.Drag 
+coroutine.wrap(BUXX_fake_script)()
+local function YZGER_fake_script() -- skyromain.Drag 
 	local script = Instance.new('LocalScript', skyromain)
 
 	local UIS = game:GetService('UserInputService')
@@ -547,8 +590,8 @@ local function FFMJFI_fake_script() -- skyromain.Drag
 		end
 	end)
 end
-coroutine.wrap(FFMJFI_fake_script)()
-local function MWWXAG_fake_script() -- home.changepage 
+coroutine.wrap(YZGER_fake_script)()
+local function FURP_fake_script() -- home.changepage 
 	local script = Instance.new('LocalScript', home)
 
 	script.Parent.MouseButton1Click:Connect(function() --home
@@ -569,10 +612,12 @@ local function MWWXAG_fake_script() -- home.changepage
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.AntiFling.Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["CMD-X"].Visible = false
 		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["Inf Yield"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain["R15 Invisiblity"].Visible = false
+		game.Players.LocalPlayer.PlayerGui.skryo.skyromain.Spiderman.Visible = false
 	end)
 end
-coroutine.wrap(MWWXAG_fake_script)()
-local function DYYJC_fake_script() -- fly.fly 
+coroutine.wrap(FURP_fake_script)()
+local function IHDRQO_fake_script() -- fly.fly 
 	local script = Instance.new('LocalScript', fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -685,8 +730,8 @@ local function DYYJC_fake_script() -- fly.fly
 		end)
 	end)
 end
-coroutine.wrap(DYYJC_fake_script)()
-local function WFHX_fake_script() -- InfJump.InfJump 
+coroutine.wrap(IHDRQO_fake_script)()
+local function SCOEN_fake_script() -- InfJump.InfJump 
 	local script = Instance.new('LocalScript', InfJump)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -703,8 +748,8 @@ local function WFHX_fake_script() -- InfJump.InfJump
 		end
 	end)
 end
-coroutine.wrap(WFHX_fake_script)()
-local function XFGQKOI_fake_script() -- AntiFling.antifling 
+coroutine.wrap(SCOEN_fake_script)()
+local function XTGI_fake_script() -- AntiFling.antifling 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -793,8 +838,8 @@ local function XFGQKOI_fake_script() -- AntiFling.antifling
 		end)
 	end)
 end
-coroutine.wrap(XFGQKOI_fake_script)()
-local function UIUFGID_fake_script() -- hamster.hamsterball 
+coroutine.wrap(XTGI_fake_script)()
+local function KWVS_fake_script() -- hamster.hamsterball 
 	local script = Instance.new('LocalScript', hamster)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -860,16 +905,16 @@ local function UIUFGID_fake_script() -- hamster.hamsterball
 		humanoid.Died:Connect(function() tc:Disconnect() end)
 	end)
 end
-coroutine.wrap(UIUFGID_fake_script)()
-local function HKVBOC_fake_script() -- walkonwalls.walkonwalls 
+coroutine.wrap(KWVS_fake_script)()
+local function GMJGXRO_fake_script() -- walkonwalls.walkonwalls 
 	local script = Instance.new('LocalScript', walkonwalls)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/walkonwalls.lua"))();
 	end)
 end
-coroutine.wrap(HKVBOC_fake_script)()
-local function NXQJRI_fake_script() -- ctrlclicktp.antifling 
+coroutine.wrap(GMJGXRO_fake_script)()
+local function PMOKMGM_fake_script() -- ctrlclicktp.antifling 
 	local script = Instance.new('LocalScript', ctrlclicktp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -906,8 +951,8 @@ local function NXQJRI_fake_script() -- ctrlclicktp.antifling
 		end)
 	end)
 end
-coroutine.wrap(NXQJRI_fake_script)()
-local function IKJK_fake_script() -- Telekinesis.Telekinesis 
+coroutine.wrap(PMOKMGM_fake_script)()
+local function KDRL_fake_script() -- Telekinesis.Telekinesis 
 	local script = Instance.new('LocalScript', Telekinesis)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1234,8 +1279,8 @@ local function IKJK_fake_script() -- Telekinesis.Telekinesis
 	
 		end)
 end
-coroutine.wrap(IKJK_fake_script)()
-local function AEKVCCB_fake_script() -- btools.btools 
+coroutine.wrap(KDRL_fake_script)()
+local function UNGBM_fake_script() -- btools.btools 
 	local script = Instance.new('LocalScript', btools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1256,8 +1301,8 @@ local function AEKVCCB_fake_script() -- btools.btools
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Unlock Workspace Baseparts.txt"))()
 		end)
 end
-coroutine.wrap(AEKVCCB_fake_script)()
-local function DFVM_fake_script() -- noclip.noclip 
+coroutine.wrap(UNGBM_fake_script)()
+local function DWREL_fake_script() -- noclip.noclip 
 	local script = Instance.new('LocalScript', noclip)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1310,36 +1355,674 @@ local function DFVM_fake_script() -- noclip.noclip
 		end
 	end)
 end
-coroutine.wrap(DFVM_fake_script)()
-local function EJSLPW_fake_script() -- respawn.respawn 
+coroutine.wrap(DWREL_fake_script)()
+local function YHGW_fake_script() -- respawn.respawn 
 	local script = Instance.new('LocalScript', respawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Name = 1 local l = game.Players.LocalPlayer.Character["1"]:Clone() l.Parent = game.Players.LocalPlayer.Character l.Name = "Humanoid" wait() game.Players.LocalPlayer.Character["1"]:Destroy() game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character game.Players.LocalPlayer.Character.Animate.Disabled = true wait() game.Players.LocalPlayer.Character.Animate.Disabled = false game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None" wait() local prt = Instance.new("Model", workspace); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; game.Players.LocalPlayer.Character=prt
 	end)
 end
-coroutine.wrap(EJSLPW_fake_script)()
-local function ABNRY_fake_script() -- Rejoin.rejoin 
+coroutine.wrap(YHGW_fake_script)()
+local function IZST_fake_script() -- Rejoin.rejoin 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(ABNRY_fake_script)()
-local function ACFT_fake_script() -- InfYield.ifn yeidl 
+coroutine.wrap(IZST_fake_script)()
+local function CGWYELP_fake_script() -- InfYield.ifn yeidl 
 	local script = Instance.new('LocalScript', InfYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(ACFT_fake_script)()
-local function BBVSPW_fake_script() -- CMDX.cmd-x 
+coroutine.wrap(CGWYELP_fake_script)()
+local function ZNXEQ_fake_script() -- CMDX.cmd-x 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(BBVSPW_fake_script)()
+coroutine.wrap(ZNXEQ_fake_script)()
+local function POEMTY_fake_script() -- skyromain.colorchange 
+	local script = Instance.new('LocalScript', skyromain)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.01)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(POEMTY_fake_script)()
+local function GAQBEU_fake_script() -- R15Invisiblity.R15 Invisiblity 
+	local script = Instance.new('LocalScript', R15Invisiblity)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local removeNametags = false -- remove custom billboardgui nametags from hrp, could trigger anticheat
+	
+		local plr = game:GetService("Players").LocalPlayer
+		local character = plr.Character
+		local hrp = character.HumanoidRootPart
+		local old = hrp.CFrame
+	
+		if not character:FindFirstChild("LowerTorso") or character.PrimaryPart ~= hrp then
+			return print("unsupported")
+		end
+	
+		if removeNametags then
+			local tag = hrp:FindFirstChildOfClass("BillboardGui")
+			if tag then tag:Destroy() end
+	
+			hrp.ChildAdded:Connect(function(item)
+				if item:IsA("BillboardGui") then
+					task.wait()
+					item:Destroy()
+				end
+			end)
+		end
+	
+		local newroot = character.LowerTorso.Root:Clone()
+		hrp.Parent = workspace
+		character.PrimaryPart = hrp
+		character:MoveTo(Vector3.new(old.X,9e9,old.Z))
+		hrp.Parent = character
+		task.wait(0.5)
+		newroot.Parent = hrp
+		hrp.CFrame = old
+	end)
+end
+coroutine.wrap(GAQBEU_fake_script)()
+local function DJRIMFC_fake_script() -- Spiderman.piderman 
+	local script = Instance.new('LocalScript', Spiderman)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--Edited by MrXTriceratops! AKA Spiderman!
+		function clerp(c1,c2,al)
+			local com1 = {c1.X,c1.Y,c1.Z,c1:toEulerAnglesXYZ()}
+			local com2 = {c2.X,c2.Y,c2.Z,c2:toEulerAnglesXYZ()}
+			for i,v in pairs(com1) do 
+				com1[i] = v+(com2[i]-v)*al
+			end
+			return CFrame.new(com1[1],com1[2],com1[3]) * CFrame.Angles(select(4,unpack(com1)))
+		end
+	
+		plr = game:service'Players'.LocalPlayer
+		plrgui = plr.PlayerGui
+		char = plr.Character
+		mouse = plr:GetMouse()
+		humanoid = char:findFirstChild("Humanoid")
+		torso = char:findFirstChild("Torso")
+		head = char.Head
+		ra = char:findFirstChild("Right Arm")
+		la = char:findFirstChild("Left Arm")
+		rl = char:findFirstChild("Right Leg")
+		ll = char:findFirstChild("Left Leg")
+		rs = torso:findFirstChild("Right Shoulder")
+		ls = torso:findFirstChild("Left Shoulder")
+		rh = torso:findFirstChild("Right Hip")
+		lh = torso:findFirstChild("Left Hip")
+		neck = torso:findFirstChild("Neck")
+		rj = char:findFirstChild("HumanoidRootPart"):findFirstChild("RootJoint")
+		rootpart = char:findFirstChild("HumanoidRootPart")
+		camera = workspace.CurrentCamera
+		anim = char:findFirstChild("Animate")
+		if anim then
+			anim:Destroy()
+		end
+	
+		local rm = Instance.new("Weld", torso)
+		rm.C0 = CFrame.new(1.5, 0.5, 0)
+		rm.C1 = CFrame.new(0, 0.5, 0)
+		rm.Part0 = torso
+		rm.Part1 = ra
+		rm.Name = 'Right Shoulder'
+	
+		local lm = Instance.new("Weld", torso)
+		lm.C0 = CFrame.new(-1.5, 0.5, 0)
+		lm.C1 = CFrame.new(0, 0.5, 0)
+		lm.Part0 = torso
+		lm.Part1 = la
+		lm.Name = 'Left Shoulder'
+	
+		local rlegm = Instance.new("Weld", torso)
+		rlegm.C0 = CFrame.new(0.5, -1, 0)
+		rlegm.C1 = CFrame.new(0, 1, 0)
+		rlegm.Part0 = torso
+		rlegm.Part1 = rl
+	
+		local llegm = Instance.new("Weld", torso)
+		llegm.C0 = CFrame.new(-0.5, -1, 0)
+		llegm.C1 = CFrame.new(0, 1, 0)
+		llegm.Part0 = torso
+		llegm.Part1 = ll
+	
+		rj.C0 = CFrame.new()
+		rj.C1 = CFrame.new()
+	
+		neck.C0 = CFrame.new(0, 1, 0)
+		neck.C1 = CFrame.new(0, -0.5, 0)
+	
+	
+		local speed = 0.3
+		local angle = 0
+		local anglespeed = 1
+		rsc0 = rm.C0
+		lsc0 = lm.C0
+		llc0 = llegm.C0
+		rlc0 = rlegm.C0
+		rootc0 = rj.C0
+		neckc0 = neck.C0
+	
+		model = Instance.new('Model', char)
+		model.Name = '3DG'
+		function Weld(part0,part1,c1,c0)
+			local w = Instance.new('Weld', model)
+			w.Part0 = part0
+			w.Part1 = part1
+			w.C0 = c0 or CFrame.new()
+			w.C1 = c1 or CFrame.new()
+		end
+	
+		local BasePart = Instance.new('Part')
+		BasePart.FormFactor = 'Custom'
+		BasePart.Material = 'Neon'
+		BasePart.CanCollide = false
+		BasePart.Locked = true
+		BasePart.TopSurface = 10
+		BasePart.BottomSurface = 10
+		BasePart.LeftSurface = 10
+		BasePart.RightSurface = 10
+		BasePart.FrontSurface = 10
+		BasePart.BackSurface = 10
+		BasePart:breakJoints()
+	
+	
+		for i = 1,2 do
+			local strap = BasePart:clone()
+			strap.Size = Vector3.new(1.025,.2,1.025)
+			strap.Parent = model
+			strap.BrickColor = BrickColor.new()
+			strap:BreakJoints()
+			Weld(strap, la, CFrame.new(0, .1 - i/3,0))
+		end
+	
+		for i = 1,2 do
+			local strap = BasePart:clone()
+			strap.Size = Vector3.new(1.025,.2,1.025)
+			strap.Parent = model
+			strap.BrickColor = BrickColor.new()
+			strap:BreakJoints()
+			Weld(strap, ra, CFrame.new(0, .1 - i/3,0))
+		end
+	
+		local ropeStart = BasePart:clone()
+		ropeStart.Size = Vector3.new(.2,1.75,.2)
+		ropeStart.Parent = model
+		ropeStart.BrickColor = BrickColor.new()
+		ropeStart:BreakJoints()
+		Weld(ropeStart, ra, CFrame.new(-.45, -.5, 0))
+		local ropeStart2 = BasePart:clone()
+		ropeStart2.Size = Vector3.new(.2,1.75,.2)
+		ropeStart2.Parent = model
+		ropeStart2.BrickColor = BrickColor.new()
+		ropeStart2:BreakJoints()
+		Weld(ropeStart2, la, CFrame.new(.45, -.5, 0))
+	
+		local pa = BasePart:clone()
+		pa.BrickColor = BrickColor.new()
+		pa.Anchored = true
+		pa.Size = Vector3.new(.5,1,.5)
+		local special = Instance.new('SpecialMesh', pa)
+		special.MeshId = "rbxassetid://1033714"
+		special.Scale = Vector3.new(.25,2,.25)
+		local ropePA = BasePart:clone()
+		ropePA.Parent = pa
+		ropePA.Anchored = true
+		ropePA.BrickColor = BrickColor.new'White'
+		Instance.new('CylinderMesh', ropePA).Scale = Vector3.new(.25,1,.25)
+	
+		local pa2 = BasePart:clone()
+		pa2.BrickColor = BrickColor.new()
+		pa2.Anchored = true
+		pa2.Size = Vector3.new(.5,1,.5)
+		local special = Instance.new('SpecialMesh', pa2)
+		special.MeshId = "rbxassetid://1033714"
+		special.Scale = Vector3.new(.25,2,.25)
+		local ropePA2 = BasePart:clone()
+		ropePA2.Parent = pa2
+		ropePA2.Anchored = true
+		ropePA2.BrickColor = BrickColor.new'White'
+		Instance.new('CylinderMesh', ropePA2).Scale = Vector3.new(.25,1,.25)
+	
+		local pa3 = BasePart:clone()
+		pa3.Transparency = 1
+		pa3.Anchored = true
+		pa3.Size = Vector3.new(2,2,2)
+	
+		local torso3 = Instance.new('Part', char)
+		torso3.Name = 'FakeTorsoForStuff'
+		torso3.Size = torso.Size
+		torso3.Transparency = 1
+		torso3:breakJoints()
+		Weld(torso3, torso)
+	
+		local bodygyro = Instance.new('BodyGyro', torso)
+		bodygyro.maxTorque = Vector3.new(14e16,14e16,14e16)
+		bodygyro.P = 10000
+	
+		ro=Instance.new("RocketPropulsion",rootpart)
+		ro.Name = 'RockatPropoolsun'
+		ro.MaxSpeed=550
+		ro.MaxThrust=9000
+		ro.TurnP = 57
+		ro.MaxTorque=Vector3.new(14e16,14e16,14e16)
+	
+		ro2=Instance.new("RocketPropulsion",torso)
+		ro2.Name = 'RockatPropoolsun2'
+		ro2.MaxSpeed=550
+		ro2.MaxThrust=9000
+		ro2.TurnP = 57
+		ro2.MaxTorque=Vector3.new(14e16,14e16,14e16)
+		local run
+		mouse.KeyDown:connect(function(k)
+			if k:byte() == 48 then
+				run = not run
+				if run then
+					humanoid.WalkSpeed = 35
+				else
+					humanoid.WalkSpeed = 14
+				end
+			end
+			if k:byte() == 32 then
+				if Grapple1 or Grapple2 then
+					wait()
+					humanoid.PlatformStand = true
+					rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
+					llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
+					if pa3.Parent ~= nil then
+						ro3:Fire()
+					end
+					if Grapple1 then
+						ro:Fire()
+					end
+					if Grapple2 then
+						ro2:Fire()
+					end
+				end
+			end
+			if k=="q" then
+				local sound = Instance.new('Sound', head)
+				sound.SoundId = "rbxassetid://151733071"
+				sound.Pitch = 3+math.random()/3
+				sound.Volume = .8
+				sound:play()
+				game:service'Debris':AddItem(sound,4)
+				lm.Parent = torso
+				pa.CFrame = la.CFrame
+				local grapplepos = pa.Position
+				local grapplevelocity = (mouse.Hit.p - grapplepos).unit*50
+				local lastgrapplepos = pa.Position 
+				while wait() do
+					lastgrapplepos = grapplepos 
+					grapplepos = grapplepos + grapplevelocity
+					local RayCast = Ray.new(lastgrapplepos, (grapplepos - lastgrapplepos))
+					local hit, hitpos = workspace:FindPartOnRay(RayCast, char)
+					if (torso.Position - pa.Position).magnitude > 900 then
+						pa.Parent = nil
+						break
+					end
+					pa.Anchored = true
+					pa.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
+					pa.Parent = char
+					if hit then
+						local rotX,rotY,rotZ = pa.CFrame:toEulerAnglesXYZ()
+						local sound = Instance.new('Sound', head)
+						sound.SoundId = "rbxassetid://151733071"
+						sound.Pitch = 1.2+math.random()/3
+						sound.Volume = .45
+						sound:play()
+						game:service'Debris':AddItem(sound,4)
+						pa.Parent = char
+						pa.CFrame=CFrame.new(hitpos.x, hitpos.y, hitpos.z)*CFrame.Angles(rotX,rotY,rotZ)*CFrame.Angles(math.pi,0,0)
+						ro.Target=pa
+						lm.Parent = torso
+						local ray = Ray.new(rootpart.Position, Vector3.new(0, -6, 0))
+						local hitz, enz = workspace:FindPartOnRay(ray, char)
+						local hum = hit and hit.Parent and hit.Parent:findFirstChild'Humanoid'
+						if hum then
+							hum:TakeDamage(math.random(7,11))
+						end
+						local hum = hit and hit.Parent and hit.Parent.Parent and hit.Parent.Parent:findFirstChild'Humanoid'
+						if hum then
+							hum:TakeDamage(math.random(7,11))
+						end
+						if pa.Parent ~= nil and humanoid.PlatformStand or not (hitz and hitz.CanCollide) then
+							ro:Fire()
+							if jumpmode then
+								humanoid.Jump = true
+							end
+						end
+						Gweld = Instance.new("Weld", char)
+						Gweld.C0 = hit.CFrame:toObjectSpace(pa.CFrame)
+						Gweld.Part0 = hit
+						Gweld.Part1 = pa
+						pa.Anchored = false
+						Grapple1Hit = hit
+						Grapple1 = true
+						break
+					end
+					pa.Anchored = true
+					pa.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
+				end
+			end
+			if k=="e" then
+				local sound = Instance.new('Sound', head)
+				sound.SoundId = "rbxassetid://151733071"
+				sound.Pitch = 3+math.random()/3
+				sound.Volume = .8
+				sound:play()
+				game:service'Debris':AddItem(sound,4)
+				pa2.CFrame = ra.CFrame
+				rm.Parent = torso
+				local grapplepos = pa2.Position
+				local grapplevelocity = (mouse.Hit.p - grapplepos).unit*50
+				local lastgrapplepos = pa2.Position 
+				while wait() do
+					lastgrapplepos = grapplepos 
+					grapplepos = grapplepos + grapplevelocity
+					local RayCast = Ray.new(lastgrapplepos, (grapplepos - lastgrapplepos))
+					local hit, hitpos = workspace:FindPartOnRay(RayCast, char)
+					if (torso.Position - pa2.Position).magnitude > 900 then
+						pa2.Parent = nil
+						break
+					end
+					pa2.Anchored = true
+					pa2.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
+					pa2.Parent = char
+					if hit then
+						local rotX,rotY,rotZ = pa2.CFrame:toEulerAnglesXYZ()
+						local sound = Instance.new('Sound', head)
+						sound.SoundId = "rbxassetid://151733071"
+						sound.Pitch = 1.2+math.random()/3
+						sound.Volume = .45
+						sound:play()
+						game:service'Debris':AddItem(sound,4)
+						pa2.Parent = char
+						pa2.CFrame=CFrame.new(hitpos.x, hitpos.y, hitpos.z)*CFrame.Angles(rotX,rotY,rotZ)*CFrame.Angles(math.pi,0,0)
+						ro2.Target=pa2
+						rm.Parent = torso
+						local ray = Ray.new(rootpart.Position, Vector3.new(0, -6, 0))
+						local hitz, enz = workspace:FindPartOnRay(ray, char)
+						local hum = hit and hit.Parent and hit.Parent:findFirstChild'Humanoid'
+						if hum then
+							hum:TakeDamage(math.random(7,11))
+						end
+						local hum = hit and hit.Parent and hit.Parent.Parent and hit.Parent.Parent:findFirstChild'Humanoid'
+						if hum then
+							hum:TakeDamage(math.random(7,11))
+						end
+						if pa2.Parent ~= nil and humanoid.PlatformStand or not (hitz and hitz.CanCollide) then
+							if jumpmode then
+								humanoid.Jump = true
+							end
+							ro2:Fire()
+						end
+						Gweld2 = Instance.new("Weld", char)
+						Gweld2.C0 = hit.CFrame:toObjectSpace(pa2.CFrame)
+						Gweld2.Part0 = hit
+						Gweld2.Part1 = pa2
+						pa2.Anchored = false
+						Grapple2Hit = hit
+						Grapple2 = true
+						break
+					end
+					pa2.Anchored = true
+					pa2.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
+				end
+			end
+		end)
+	
+		mouse.KeyUp:connect(function(k)
+			if k=="q" then
+				pcall(function() Gweld:remove() end)
+				game:service'RunService'.RenderStepped:wait()
+				pcall(function() pa.Parent = nil Grapple1 = false end)
+				pcall(function() ro:Abort() end)
+				game:service'RunService'.RenderStepped:wait()
+				pcall(function() ro2.Target=pa2 if Grapple2 and humanoid.PlatformStand or Grapple2 and not hitz then ro2:Fire() end end)
+			elseif k=="e" then
+				pcall(function() Gweld2:remove() end)
+				game:service'RunService'.RenderStepped:wait()
+				pcall(function() pa2.Parent = nil Grapple2 = false end)
+				pcall(function() ro2:Abort() end)
+				game:service'RunService'.RenderStepped:wait()
+				pcall(function() ro.Target=pa if Grapple1 and humanoid.PlatformStand or Grapple1 and not hitz then ro:Fire() end end)
+			end
+		end)
+	
+	
+		local MidPointUsed = false
+		local TorsoSmoke = Instance.new('Smoke', torso)
+	
+	
+		game:service'RunService'.RenderStepped:connect(function()
+			angle = (angle % 100) + anglespeed/10
+			mvmnt = math.pi * math.sin(math.pi*2/100*(angle*10))
+			local rscf = rsc0
+			local lscf = lsc0
+			local rlcf = rlc0
+			local llcf = llc0
+			local rjcf = rootc0
+			local ncf = neckc0
+			for i,object in pairs(char:children()) do
+				if object:IsA("Tool") then
+					tool = true
+					if not debounce then
+						for x,value in pairs(object:children()) do
+							if value:IsA("StringValue") and value.Name == "toolanim" and value.Value == "Slash" then
+								debounce = true
+								coroutine.wrap(function()
+									slashing = true
+									wait(.25)
+									slashing = false
+									debounce = false
+								end)()
+								value:Destroy()
+							end
+						end
+					end
+				elseif not object:IsA'Tool' then
+					tool = false
+				end
+			end
+			if not humanoid.PlatformStand then
+				if humanoid.Sit == true then
+					speed = 0.2
+					anglespeed = 1/4
+					ncf = neckc0 * CFrame.Angles(0, 0, 0)
+					rjcf = rootc0
+					rscf = rsc0 * CFrame.Angles(math.pi/2+math.sin(-angle)*0.05, 0, 0)
+					lscf = lsc0 * CFrame.Angles(math.pi/2+math.sin(-angle)*0.05, 0, 0)
+					rlcf = rlc0 * CFrame.Angles(math.pi/2+-math.rad(.2), 0, math.rad(.2))
+					llcf = llc0 * CFrame.Angles(math.pi/2+math.rad(.2), 0, -math.rad(.2))
+				elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude <= 2 then
+					anglespeed = 1/4
+					speed = 0.2
+					ncf = neckc0 * CFrame.Angles(math.sin(angle)*0.075, 0, 0)
+					rjcf = rootc0
+					rscf = rsc0 * CFrame.new(0, math.sin(angle)*0.05, 0) * CFrame.Angles(math.sin(-angle)*0.05, 0, 0)
+					lscf = lsc0 * CFrame.new(0, math.sin(angle)*0.05, 0) * CFrame.Angles(math.sin(-angle)*0.05, 0, 0)
+					rlcf = rlc0 * CFrame.Angles(-math.rad(.2), 0, math.rad(.2))
+					llcf = llc0 * CFrame.Angles(math.rad(.2), 0, -math.rad(.2))
+				elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude <= 20 then
+					anglespeed = 1.7
+					speed = 0.25
+					anglespeed = 2.2
+					speed = 0.25
+					ncf = neckc0 * CFrame.Angles(0, 0, 0)
+					rjcf = rootc0 * CFrame.new(0, math.abs(math.sin(angle))*.055, 0) * CFrame.Angles(-math.rad(1), 0, 0)
+					rscf = rsc0 * CFrame.Angles(math.sin(angle)*.5, 0, -math.rad(1))
+					lscf = lsc0 * CFrame.Angles(math.sin(-angle)*.5, 0, math.rad(1))
+					rlcf = rlc0 * CFrame.new(0, .075 + -math.cos(-angle)*.075, math.sin(angle)*0.1) * CFrame.Angles(math.sin(-angle)*.45, 0, math.rad(.5))
+					llcf = llc0 * CFrame.new(0, .075 - -math.cos(angle)*.075, -math.sin(angle)*0.1) * CFrame.Angles(math.sin(angle)*.45, 0, -math.rad(.5))
+				elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude >= 20 then
+					local RotVelocityZ = torso.RotVelocity.Y
+					if RotVelocityZ >= 15 then
+						RotVelocityZ = 15
+					elseif RotVelocityZ <= -15 then
+						RotVelocityZ = -15
+					end
+					speed = 0.25
+					anglespeed = 2.7
+					ncf = neckc0 * CFrame.Angles(0, 0, -math.sin(angle)*.045)
+					rscf = rsc0 * CFrame.new(0, 0, -math.sin(angle)*0.125) * CFrame.Angles(math.pi/14+math.sin(angle)*1.5, 0, -math.sin(math.abs(angle))*0.3)
+					lscf = lsc0 * CFrame.new(0, 0, math.sin(angle)*0.125) * CFrame.Angles(math.pi/14+math.sin(-angle)*1.5, 0, -math.sin(math.abs(angle))*0.3)
+					rjcf = rootc0 * CFrame.new(0, math.abs(math.sin(angle))*.175 - .2, 0) * CFrame.Angles(math.abs(math.sin(angle))*0.055 + -math.pi/18, 0, math.rad(RotVelocityZ) + math.sin(angle)*.045)
+					rlcf = rlc0 * CFrame.new(0, .3 + -math.cos(-angle)*.3, -.2+math.sin(angle)*0.25) * CFrame.Angles(-math.pi/18+math.sin(-angle)*1.3, 0, math.rad(.5))
+					llcf = llc0 * CFrame.new(0, .3 - -math.cos(angle)*.3, -.05-math.sin(angle)*0.25) * CFrame.Angles(-math.pi/18+math.sin(angle)*1.3, 0, -math.rad(.5))
+				end
+				if tool then
+					rscf = rsc0 * CFrame.Angles(math.pi/2, 0, 0)
+					if slashing then
+						rscf = rsc0
+					end
+				end
+			end
+			if pa2.Parent == nil then
+				rm.C0 = clerp(rm.C0,rscf,speed)
+			end
+			if pa.Parent == nil then
+				lm.C0 = clerp(lm.C0,lscf,speed)
+			end
+			rj.C0 = clerp(rj.C0,rjcf,speed)
+			neck.C0 = clerp(neck.C0,ncf,speed)
+			rlegm.C0 = clerp(rlegm.C0,rlcf,speed)
+			llegm.C0 = clerp(llegm.C0,llcf,speed)
+		end)
+	
+	
+	
+		game:service'RunService'.RenderStepped:connect(function()
+			if Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude >= 225 then
+				TorsoSmoke.Enabled = true
+			else
+				TorsoSmoke.Enabled = false
+			end
+			local ray = Ray.new(rootpart.Position, Vector3.new(0, -7, 0))
+			local hitz, enz = workspace:FindPartOnRay(ray, char)
+			if hitz and hitz.CanCollide and pa.Parent ~= char and pa2.Parent ~= char then
+				bodygyro.Parent = nil
+				humanoid.PlatformStand = false
+			end
+			if pa.Parent ~= nil or Grapple1 then
+				local size = (ropeStart2.Position-pa.Position).magnitude
+				ropePA.Size = Vector3.new(.2, size, .2) 
+				ropePA.CFrame = CFrame.new(ropeStart2.Position, pa.Position) * CFrame.Angles(math.pi/2, 0, 0) * CFrame.new(0, -size/2, 0)
+				lm.C0 = CFrame.new(Vector3.new(lsc0.x, lsc0.y, lsc0.z), torso.CFrame:pointToObjectSpace(pa.Position)) * CFrame.Angles(math.pi/2, 0, 0)
+			else
+				if not debounce and humanoid.PlatformStand then
+					lm.C0 = lsc0 * CFrame.Angles(-.15, 0, -.15)
+				end
+			end
+			if pa2.Parent ~= nil or Grapple2 then
+				local size = (ropeStart.Position-pa2.Position).magnitude
+				ropePA2.Size = Vector3.new(.2, size, .2) 
+				ropePA2.CFrame = CFrame.new(ropeStart.Position, pa2.Position) * CFrame.Angles(math.pi/2, 0, 0) * CFrame.new(0, -size/2, 0)
+				rm.C0 = CFrame.new(Vector3.new(rsc0.x, rsc0.y, rsc0.z), torso.CFrame:pointToObjectSpace(pa2.Position)) * CFrame.Angles(math.pi/2, 0, 0)
+			else
+				if not debounce and humanoid.PlatformStand then
+					rm.C0 = rsc0 * CFrame.Angles(-.15, 0, .15)
+				end
+			end
+			if Grapple1 and Grapple1Hit.Parent == nil then
+				pcall(function() Gweld:remove() end)
+				pa.Parent = nil
+				Grapple1 = false
+				ro:Abort()
+			end
+			if Grapple2 and Grapple2Hit.Parent == nil then
+				pcall(function() Gweld2:remove() end)
+				pa2.Parent = nil
+				Grapple2 = false
+				ro2:Abort()
+			end
+			if Grapple1 and Grapple2 and (humanoid.PlatformStand or not hitz) then
+				local distance = (pa.Position-pa2.Position).magnitude
+				bodygyro.Parent = torso
+				torso.CFrame = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
+				bodygyro.cframe = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
+				pa3.Parent = char
+				if distance <= .5 then
+					pa3.CFrame = pa.CFrame
+				elseif distance > .5 then
+					pa3.CFrame = CFrame.new(pa.Position, pa2.Position) * CFrame.new(0, 0, -distance/2)
+				end
+				if not MidPointUsed then
+					ro3=Instance.new("RocketPropulsion",torso3)
+					ro3.Name = 'RockatPropoolsun3'
+					ro3.MaxSpeed=550
+					ro3.MaxThrust=16000
+					ro3.TurnP = 57
+					ro3.TurnD = 0
+					ro3.MaxTorque=Vector3.new(14e16,14e16,14e16)
+					if humanoid.PlatformStand or not hitz then
+						ro:Abort()
+						ro2:Abort()
+					end
+					ro3.Target = pa3
+					if humanoid.PlatformStand or not hitz then
+						ro3:Fire()
+					end
+					MidPointUsed = true
+				end
+			elseif (not Grapple1 or not Grapple2) and MidPointUsed == true and (humanoid.PlatformStand or not hitz) then
+				pa3.Parent = nil
+				MidPointUsed = false
+				ro3:Abort()
+				ro3:Destroy()
+				if Grapple1 then
+					ro:Fire()
+				end
+				if Grapple2 then
+					ro2:Fire()
+				end
+			end
+			if not Grapple1 then
+				pcall(function() Gweld:remove() end)
+			end
+			if not Grapple2 then
+				pcall(function() Gweld2:remove() end)
+			end
+			if (Grapple1 or Grapple2) and not hitz then
+				bodygyro.Parent = torso
+				humanoid.PlatformStand = true
+				rlegm.Parent = torso
+				llegm.Parent = torso
+				lm.Parent = torso
+				rm.Parent = torso
+				rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
+				llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
+			end
+			if (Grapple1 or Grapple2) and not hitz or humanoid.PlatformStand then
+				bodygyro.Parent = torso
+				bodygyro.cframe = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
+				rlegm.Parent = torso
+				llegm.Parent = torso
+				rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
+				llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
+			end
+		end)
+		repeat wait() until game.Players.LocalPlayer.Character
+		repeat wait(1) until game.Players.LocalPlayer.Character:IsDescendantOf(game.Workspace)
+		wait(4 / 20)
+	end)
+end
+coroutine.wrap(DJRIMFC_fake_script)()
